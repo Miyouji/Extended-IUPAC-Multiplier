@@ -1,3 +1,4 @@
+```lua
 function IUPAC(n)
 	
 	local FirstOnes = {
@@ -99,3 +100,4 @@ function IUPAC(n)
 		end
 	end
 end
+```

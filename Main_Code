@@ -1,4 +1,4 @@
-```lua
+```ruby
 function IUPAC(n)
 	
 	local FirstOnes = {

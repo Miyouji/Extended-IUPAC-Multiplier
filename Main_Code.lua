@@ -38,7 +38,7 @@ function IUPAC(n)
 	if type(n) == "number" then
 		n = math.floor(n)
 		if n >= 10^((#MultOnes*3)) then
-			return "#" .. s.Comma(n)
+			return "#" .. n
 		else	
 			local function getnum(nm)
 				if nm and tonumber(nm) then
@@ -95,7 +95,7 @@ function IUPAC(n)
 				end
 			end
 			
-			return (txt:gsub("^%l", string.upper)) .. " (" .. s.Comma(n) ..")"
+			return (txt:gsub("^%l", string.upper)) .. " (#" .. n ..")"
 		end
 	end
 end

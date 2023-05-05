@@ -1,4 +1,3 @@
 # Extended-IUPAC-Multiplier
-The terms of "double" and "triple" seem too short. Now you can extend these numbers to higher levels.
-
-(Some parts of the code are from Roblox's BigNum open-sourced module.)
+Extension for terms like "double" or "triple"
+Max term is 10^(3*MultOnes) anything bigger returns the number itself

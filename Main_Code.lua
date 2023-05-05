@@ -33,6 +33,8 @@ function IUPAC(n)
 	local MultOnes = {
 		"", "lia", "mega", "giga", "tera", "peta", "exa", "zetta", "yotta", "wekka", "ronna", "quetta"
 	}
+
+-- reminder that you can add as many entries to MultOnes table, but the code will probably break when the number received is 2^1024 or above
 	
 	
 	if type(n) == "number" then

@@ -1,6 +1,6 @@
 function IUPAC(n)
 	
-	local FirstOnes = {
+	local FirstOnes = { -- tedious but works feel free to find a very robust method
 		"", "Single", "Double","Triple","Quadra","Penta","Hexa","Hepta","Octa","Enna",
 		"Deca","Undeca","Dodeca","Trideca","Tetradeca","Pentadeca","Hexadeca","Heptadeca","Octadeca","Ennadeca",
 		"Icosa","Henicosa","Docosa","Tricosa","Tetracosa","Pentacosa","Hexacosa","Heptacosa","Octacosa","Ennacosa",
